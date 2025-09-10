@@ -1,0 +1,47 @@
+* {
+    /* margin:0;
+    padding:0; */
+}
+header {
+    width: 100%;
+    height: 25%;
+    background-color: black;
+    color:white;
+    align-content: center;
+}
+h1 {
+    text-align: center;
+}
+
+#text-section p {
+    text-align: justify;
+    text-align-last: center;
+}
+main section div {
+    width:19%;
+    height: 20%;
+    margin:2px;
+    display: inline;
+}
+
+main section div img {
+    width: 19%;
+}
+
+main section div p {
+display: inline;
+margin:12px;
+}
+
+main section {
+    margin:12px;
+    border:1px solid black;
+}
+
+main section div img:hover {
+    transform: scale(2);
+    transform-origin: bottom;
+    transition: transform 10s ease-in-out;
+}
+
+
