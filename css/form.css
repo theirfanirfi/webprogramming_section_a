@@ -1,0 +1,26 @@
+form div {
+    border:1px solid black;
+    border-radius: 20px;
+    margin-bottom: 12px;
+    padding:12px;
+    width: 40%;
+}
+
+.input {
+    width: 70%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+
+form button {
+    background-color: blue;
+    color:white;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+form .input:focus {
+    border-color: red;
+    outline: 1px solid red;
+}
